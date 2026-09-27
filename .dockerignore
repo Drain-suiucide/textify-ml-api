@@ -9,9 +9,9 @@ __pycache__
 tests
 benchmark_fp32.py
 diagnose_tflite.py
-test_model.py
-test_tflite.py
-test_tflite_int8.py
+inspect_model.py
+benchmark_tflite.py
+benchmark_tflite_int8.py
 calibration_images
 *.jpg
 *.jpeg
