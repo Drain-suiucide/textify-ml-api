@@ -1,0 +1,17 @@
+.venv
+.git
+.gitignore
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+
+tests
+benchmark_fp32.py
+diagnose_tflite.py
+test_model.py
+test_tflite.py
+test_tflite_int8.py
+calibration_images
+*.jpg
+*.jpeg

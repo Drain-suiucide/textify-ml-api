@@ -1,0 +1,9 @@
+services:
+  api:
+    build:
+      context: .
+    image: textify-ml-api:latest
+    container_name: textify-ml-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
